@@ -257,6 +257,7 @@ body {
   }
 }
 
+
 .btn {
   @include btn;
 }
@@ -284,6 +285,11 @@ body {
 
 .products_link :hover .products_link-icon path {
   fill: $hover-color;
+}
+
+.star-card {
+  width: 18px;
+  height: 18px;
 }
 
 .about {
@@ -426,6 +432,7 @@ body {
   }
   .rate {
     display: flex;
+    align-items: center;
     gap: 4px;
     width: 110px;
   }

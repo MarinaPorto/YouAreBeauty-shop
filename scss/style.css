@@ -267,6 +267,11 @@ body {
   fill: #ff7500;
 }
 
+.star-card {
+  width: 18px;
+  height: 18px;
+}
+
 .about {
   padding: 60px 132px;
   display: -webkit-box;
@@ -458,6 +463,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 4px;
   width: 110px;
 }
