@@ -459,6 +459,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 4px;
+  width: 110px;
 }
 
 .category-card-img {
@@ -988,7 +989,6 @@ body {
     font-size: 28px;
   }
   .reviews .review-card-img {
-    max-width: 336px;
     height: 100%;
   }
   .reviews .review__card {

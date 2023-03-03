@@ -412,7 +412,6 @@ body {
   padding: 80px 20px;
   text-align: center;
   &_card {
-    //  width: 350px;
     margin-right: 30px;
     margin-left: 30px;
     margin-bottom: 60px;
@@ -424,13 +423,11 @@ body {
   .card_items {
     padding: 60px 132px;
     text-align: left;
-    // display: flex;
-    // justify-content: space-between;
-    //  max-width: 0;
   }
   .rate {
     display: flex;
     gap: 4px;
+    width: 110px;
   }
 }
 
@@ -894,7 +891,7 @@ body {
       font-size: 28px;
     }
     .review-card-img {
-      max-width: 336px;
+      // max-width: 336px;
       height: 100%;
     }
     .review__card {
