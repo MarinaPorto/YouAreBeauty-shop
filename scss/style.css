@@ -473,7 +473,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
   padding: 22px 0;
   border-bottom: 1px solid #acacac;
   margin-bottom: 20px;
@@ -989,7 +988,7 @@ body {
     font-size: 28px;
   }
   .reviews .review-card-img {
-    max-width: 360px;
+    max-width: 336px;
     height: 100%;
   }
   .reviews .review__card {
